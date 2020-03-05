@@ -1,8 +1,10 @@
  version: 2
  jobs:
    build:
+    context: .
+    dockerfile: DockerFile
      docker:
-       - image: circleci/python:3.8.1
+       - image: '0rt1z112/projectpython/helloworld'
      steps:
        - checkout
        - run: pip install pystrich
