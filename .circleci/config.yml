@@ -5,6 +5,6 @@
        - image: circleci/python:3.8.1
      steps:
        - checkout
-       - run: pip install pystrich
+       - run: pip install python3-pip
        - run: python --version
        - run: echo "Hello World"
