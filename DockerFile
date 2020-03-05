@@ -1,4 +1,4 @@
 FROM python:3.8.1
 ADD helloworld.py /
 RUN pip install pystrich
-CMD [ "docker-compose", "up" ]
+CMD [ "python", "helloworld.py" ]
