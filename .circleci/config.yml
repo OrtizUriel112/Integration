@@ -10,5 +10,4 @@
        - run:
           name: Hello World
           command: |
-            . 
             python helloworld.py
